@@ -1,0 +1,42 @@
+body {
+  background-color: grey;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  padding: 10px 30px 10px 30px;
+  background-color: blue;
+  height: 40px;
+}
+
+#logo {
+  height: 35px;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  background-color: yellow;
+}
+
+#icons {
+  height: 50px;
+  width: 100%;
+  padding: 0 0 4px 0;
+  background-color: blue;
+}
+
+#form {
+  background-color: red;
+  padding: 30px;
+  width: 320px;
+  height: 600px;
+}
+
+footer {
+  background-color: blue;
+  height: 100px;
+  padding: 20px 0 20px 0;
+}
