@@ -1,2 +1,4 @@
 # html-forms
-Building an HTML document that has a form, a copy of Mint sign-up, as part of Microverse's program
+Building an HTML document that has a form, a copy of Mint sign-up, as part of Microverse's program.
+
+By Felipe dos Anjos and Brenda Yucra
