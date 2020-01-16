@@ -29,10 +29,62 @@ main {
 }
 
 #form {
-  background-color: red;
+  background-color: white;
   padding: 30px;
   width: 320px;
   height: 600px;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.full{
+  width: 100%;
+  font-size: 0.9em;
+}
+
+input{
+  width: 100%;
+  padding: 0;
+}
+
+#full-create{
+  width: 100%;
+  background-color: #0077c5;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+#full-create:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#full-create:active {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#full-create:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#full-create:link {
+  text-decoration: none;
+  color: white;
+}
+
+#google-captcha, #terms-of-use {
+  text-align: center;
 }
 
 footer {
