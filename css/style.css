@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: #eceef1;
 }
 
 main {
@@ -8,9 +8,13 @@ main {
   align-items: center;
 }
 
+.sign-up-header {
+  text-align: center;
+  font-size: 1.2em;
+}
+
 #header {
   padding: 10px 30px 10px 30px;
-  background-color: blue;
   height: 40px;
 }
 
@@ -18,40 +22,62 @@ main {
   height: 35px;
   padding: 20px 0 20px 0;
   width: 100%;
-  background-color: yellow;
 }
 
 #icons {
   height: 50px;
   width: 100%;
   padding: 0 0 4px 0;
-  background-color: blue;
+}
+
+.wrapper {
+  width: 380px;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
 }
 
 #form {
-  background-color: white;
-  padding: 30px;
-  width: 320px;
-  height: 600px;
-  font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
-  justify-content: space-evenly;
+  padding: 30px;
+  background-color: white;
 }
 
-.full{
+.google-captcha {
+  padding: 16px;
+  font-size: 0.65em;
+}
+
+.full {
   width: 100%;
   font-size: 0.9em;
+  margin-bottom: 20px;
 }
 
-input{
+.terms-of-use {
+  margin-top: 30px;
+  font-style: italic;
+  color: grey;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+label {
+  padding: 0 0 6px 0;
+}
+
+input {
   width: 100%;
-  padding: 0;
+  box-sizing: border-box;
+  padding: 0 6px 0 8px;
 }
 
-#full-create{
+#full-create {
   width: 100%;
   background-color: #0077c5;
   text-align: center;
@@ -83,12 +109,12 @@ input{
   color: white;
 }
 
-#google-captcha, #terms-of-use {
+#google-captcha,
+#terms-of-use {
   text-align: center;
 }
 
 footer {
-  background-color: blue;
   height: 100px;
   padding: 20px 0 20px 0;
 }
