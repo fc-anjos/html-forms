@@ -10,24 +10,86 @@ main {
 
 .sign-up-header {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sign-up-sub-header, #learn-more {
+  text-align: center;
+  font-size: 0.75em;
 }
 
 #header {
   padding: 10px 30px 10px 30px;
   height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  color: #505050;
+  font-weight: 400;
+  font-size: 12px;
 }
 
-#logo {
-  height: 35px;
+#full-email {
+  margin-top: 20px;
+}
+
+.full-sign-in {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+#sign-in{
+  background-color: #0077c5;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  margin: 0 20px 0 20px;
+}
+
+.logo {
+  overflow: hidden;
   padding: 20px 0 20px 0;
-  width: 100%;
 }
 
-#icons {
-  height: 50px;
-  width: 100%;
-  padding: 0 0 4px 0;
+.init-logo {
+  width: 118px;
+  height: 35px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+}
+
+.icons {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4px;
+}
+
+.init-icons-1 {
+  width: 80px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -250px 30px;
+}
+
+.init-icons-2 {
+  width: 140px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -110px 30px;
+}
+.init-icons-3 {
+  width: 105px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: 0px 30px;
 }
 
 .wrapper {
@@ -37,6 +99,7 @@ main {
   flex-direction: column;
   align-items: center;
   border: 1px solid grey;
+  color: #4c4c4c;
 }
 
 #form {
@@ -64,7 +127,9 @@ main {
   font-style: italic;
   color: grey;
   text-align: center;
-  font-size: 0.7em;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 label {
@@ -86,25 +151,50 @@ input {
   border-radius: 5px;
 }
 
-#full-create:hover {
+/* selected link */
+.full-links:hover {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+/* selected link */
+.full-links:active {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+/* selected link */
+.full-links:visited {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+/* selected link */
+.full-links:link {
+  text-decoration: none;
+  color: #0e98e0;
+}
+
+/* selected link */
+.button-links:hover {
   color: white;
   text-decoration: none;
 }
 
 /* selected link */
-#full-create:active {
+.button-links:active {
   color: white;
   text-decoration: none;
 }
 
 /* selected link */
-#full-create:visited {
+.button-links:visited {
   color: white;
   text-decoration: none;
 }
 
 /* selected link */
-#full-create:link {
+.button-links:link {
   text-decoration: none;
   color: white;
 }
