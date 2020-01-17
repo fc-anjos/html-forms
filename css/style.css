@@ -185,7 +185,12 @@ label {
   color: #0e98e0;
 }
 
-#sign-in-lock {
+#sign-in-lock-header {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+#sign-in-lock-form {
   font-size: 1.2em;
   margin-right: 5px;
 }
