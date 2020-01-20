@@ -1,0 +1,280 @@
+body {
+  font-family: sans-serif;
+  background-color: #eceef1;
+  color: #505050;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-header {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sign-up-sub-header,
+#learn-more {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+#header {
+  padding: 0 30px 10px 30px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#lock-header {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+#full-email {
+  margin-top: 20px;
+}
+
+.full-sign-in {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+#sign-in {
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+  background-color: #0077c5;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  margin: 0 20px 0 20px;
+  font-size: 13px;
+}
+
+.logo {
+  overflow: hidden;
+  padding: 20px 0 20px 0;
+}
+
+.init-logo {
+  width: 118px;
+  height: 35px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+}
+
+.icons {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4px;
+}
+
+.init-icons-1 {
+  width: 80px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -250px 30px;
+}
+
+.init-icons-2 {
+  width: 140px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: -110px 30px;
+}
+
+.init-icons-3 {
+  width: 105px;
+  height: 30px;
+  display: block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+  background-position: 0 30px;
+}
+
+.wrapper {
+  margin-top: 20px;
+  width: 380px;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #c7c7c7;
+  color: #4c4c4c;
+}
+
+#form {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+}
+
+.google-captcha {
+  padding: 16px;
+  font-size: 0.65em;
+}
+
+.full {
+  width: 100%;
+  font-size: 0.9em;
+  margin-bottom: 25px;
+}
+
+.terms-of-use {
+  margin-top: 30px;
+  font-style: italic;
+  color: grey;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+label {
+  padding: 0 0 6px 0;
+}
+
+#create-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  width: 100%;
+  background-color: #0077c5;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.full-links:hover {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+.full-links:active {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+.full-links:visited {
+  color: #0e98e0;
+  text-decoration: none;
+}
+
+.full-links:link {
+  text-decoration: none;
+  color: #0e98e0;
+}
+
+#sign-in-lock-header {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+#sign-in-lock-form {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+.button-links {
+  height: 13px;
+}
+
+.button-links:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button-links:active {
+  color: white;
+  text-decoration: none;
+}
+
+.button-links:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.button-links:link {
+  text-decoration: none;
+  color: white;
+}
+
+#terms-of-use {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  padding: 20px 20% 20px 20%;
+}
+
+.links-footer {
+  font-size: 0.75em;
+  margin: 0 8px 0 8px;
+}
+
+.links-footer:hover {
+  color: #505050;
+  text-decoration: none;
+}
+
+.links-footer:active {
+  color: #505050;
+  text-decoration: none;
+}
+
+.links-footer:visited {
+  color: #505050;
+  text-decoration: none;
+}
+
+.links-footer:link {
+  color: #505050;
+  text-decoration: none;
+}
+
+#password {
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 95% 50%;
+}
+
+.copyright {
+  line-height: 1.5;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+input {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #505050;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 0 6px 0 8px;
+}
